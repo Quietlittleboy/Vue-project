@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -32,7 +34,34 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-console": "off",
+      "no-trailing-spaces": "off",
+      "indent": "off",
+      "spaced-comment": "off",
+      "no-new": "off",
+      "key-spacing": "off",
+      "comma-dangle": "off",
+      "eol-last": "off",
+      "quotes": "off",
+      "semi": "off",
+      "keyword-spacing": "off",
+      "space-before-blocks": "off",
+      "comma-spacing": "off",
+      "space-before-function-paren": "off",
+      "space-infix-ops": "off",
+      "no-multiple-empty-lines": "off",
+      "block-spacing": "off",
+      "padded-blocks": "off",
+      "arrow-spacing": "off",
+      "no-sequences": "off",
+      "no-unused-expressions": "off",
+      "no-multi-spaces": "off",
+      "no-unused-vars": "off",
+      "camelcase ": "off",
+      "vue/no-side-effects-in-computed-properties": "off",
+      "no-mixed-spaces-and-tabs": "off"
+    }
   },
   "browserslist": [
     "> 1%",
