@@ -7,6 +7,8 @@ import '../tools/rem'
 
 // 引入路由器
 import router from './router'
+// 注册仓库
+import store from './store'
 
 // 控制浏览器显示台是否显示提示信息
 Vue.config.productionTip = false
@@ -20,7 +22,9 @@ new Vue({
       App
     },template:'<App/>',
     // 注册路由
-    router
+    router,
+    // 注册仓库
+    store
   })
 
  
