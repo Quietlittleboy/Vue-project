@@ -27,6 +27,15 @@ module.exports = {
         pathRewrite: {
           '^/api': '' // /api设置为空
         }
+      },
+      '/ips': {
+        // 要请求数据的目标地址
+        target: 'https://m.you.163.com',
+        // 是否跨域
+        changeOrigin: true,
+        pathRewrite: {
+          '^/ips': '' // /api设置为空
+        }
       }
     }
   }

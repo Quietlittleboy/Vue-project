@@ -1,0 +1,214 @@
+.recommend
+  .home-introduce //简介
+    margin 10px 0
+    ul
+      display flex
+      justify-content space-around
+      li
+        font-size 12px
+        display:flex;
+        align-items: center;
+        img
+          width  20px
+          height 20px
+          color #be4141
+  .home-contnet //中间商品
+    width 100%
+    height 190px
+    display flex
+    flex-direction column
+    align-items center
+    justify-content: center;
+    flex-wrap wrap
+    .commodity-content
+      display flex
+      flex-direction:column
+      &:nth-child(odd)
+        margin-bottom 23px
+      img
+        width 50px
+        height 50px
+        border-radius 15px
+        vertical-alian middle
+      span
+        font-size 12px
+        margin-top 5px
+
+
+  .home-list //商品列表
+    width 100%
+    background-color #ccc
+    overflow hidden
+    .home-preference
+      width 100%
+      height 330px
+      .preference-title
+        height 120px
+        width 100%
+        background url('../../../images/1hoem.gif')
+        background-size 100% 100%
+      .preference-content
+        width 100%
+        height 200px
+        background-color pink
+    .list-new
+      width 100%
+      font-size 14px
+      padding 10px 0
+      margin-bottom 10px
+      background-color #fff
+      .new-title
+        font-size 18px
+        text-align center
+        margin-bottom 10px
+      .new-content
+        width 100%
+        display flex
+        justify-content center
+        .new-left
+          width 46%
+          height 200px
+          background-color pink
+          margin-right 2px
+        .new-right
+          width 46%
+          .new-top
+            width 100%
+            height 99px
+            background-color skyblue
+            margin-top 1px
+          img
+            width 80px
+    .list-hot
+      width 100%
+      font-size 16px
+      padding 13px
+      margin-bottom 10px
+      background-color #fff
+      *zoom 1
+      &::after
+        content ''
+        display block
+        clear both
+      .hot-title
+        font-size 18px
+        margin-bottom 10px
+      .hot-content
+        width 100%
+        .content-detail
+          width 84px
+          height 90px
+          float left
+          margin 4px 4px 0 0
+          background-color #F5F5F5
+          display flex
+          flex-direction column
+          align-items center
+          font-size 12px
+          span
+            text-align center
+            margin 8px 0 10px 0
+          img
+            width 50px
+            height 50px
+          &:nth-child(1),&:nth-child(2)
+            width 172px
+            height 100px
+            font-size 16px
+            background-color #F9F3E4
+            img
+              width 70px
+              height 60px
+    .list-limit
+      width 100%
+      font-size 16px
+      padding 13px
+      margin-bottom 10px
+      background-color #fff
+      .limit-title
+        width 305px
+        display: inline-block;
+      .limit-content
+        width 100%
+        margin-top 10px
+        *zoom 1
+        &::after
+          content ''
+          display block
+          clear both
+        .content-detail
+          width 110px
+          height 130px
+          float left
+          margin 9px 9px 0 0
+          .price1
+            text-align center
+            font-size 14px
+            color red
+            margin 0 5px
+          .price2
+            font-size 12px
+            color #666
+          .limit-img
+            width 100%
+            height 100px
+            background-color #F5F5F5
+            margin-bottom 5px
+            position: relative
+          img
+            width 100px
+            height 100px
+            position absolute
+            top 50%
+            left 50%
+            transform translate(-50%,-50%)
+    .list-footer
+      width 100%
+      font-size 16px
+      padding 13px
+      margin-bottom 10px
+      background-color #fff
+      *zoom 1
+      &::after
+        content ''
+        display block
+        clear both
+      .footer-goods
+        width 158px
+        height 135px
+        float left
+        margin 2px 2px 0 0
+        background-color #F5F5F5
+        padding 15px 0 0 15px
+        .goods-title
+          font-size 16px
+          margin-bottom 5px
+        .goods-text
+          font-size 12px
+          color #666
+        .goods-img
+          display flex
+          margin-top 15px
+          img
+            margin-left 5px
+            width 60px
+            height 60px
+  .hoem-footer
+    width 100%
+    background-color #333
+    font-size 12px
+    color #fff
+    padding 30px 0 10px 0
+    .download
+      display flex
+      justify-content center
+      margin-bottom 25px
+      div
+        border 1px solid #999
+        padding  8px 20px
+        margin 0 20px
+    .copyright
+      font-size 10px
+      text-align center
+      margin-bottom 5px
+      color #999

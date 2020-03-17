@@ -6,7 +6,7 @@
       </span>
       <span>首页</span>
     </a>
-    <a href="javascript:;" class="guide_item" @click="goto('/classify')" :class="{on:$route.path ==='/classify'}">
+    <a href="javascript:;" class="guide_item" @click="goto('/classify'&&'/classify/classlist/11')" :class="{on:$route.path ==='/classify'}">
       <span class="item_icon">
         <i class="iconfont icon-fenlei"></i>
       </span>
@@ -43,7 +43,7 @@ export default {
       this.$router.replace(path);
       }
     }
-  }
+  },
 };
 </script>
 

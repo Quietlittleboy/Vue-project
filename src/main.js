@@ -10,6 +10,10 @@ import router from './router'
 // 注册仓库
 import store from './store'
 
+// 注册轮播图共组件
+import Switch from './components/Swiper'
+Vue.component(Switch.name, Switch)
+
 // 控制浏览器显示台是否显示提示信息
 Vue.config.productionTip = false
 // 生明使用插件
